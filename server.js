@@ -9,6 +9,10 @@ app.use(express.urlencoded( {extended: true }));
 
 app.use(express.static('public'));
 
+app.get('*', (res, req) => {
+    console.log('stuff from public/index.html file');
+    res.sendFile(path.join(__dirname, 'public/index.html'))
+})
 
 app.get('/notes', (res, req) => {
     console.log('Notes from public/notes.html receieved');
