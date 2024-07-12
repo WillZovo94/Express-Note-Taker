@@ -12,12 +12,6 @@ app.use(express.static('public'));
 
 app.use('/api', api);
 
-/*
-app.get('*', (req, res) => {
-    console.log('stuff from public/index.html file');
-    res.sendFile(path.join(__dirname, 'public/index.html'))
-})
-*/
 app.get('/notes', (req, res) => {
     console.log('Notes from public/notes.html receieved');
     res.sendFile(path.join(__dirname, 'public/notes.html'));
