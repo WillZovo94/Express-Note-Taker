@@ -8,11 +8,11 @@
 
 ## Usage 
 - You're given a note taker landing page to access the ./notes section upon clicking "Get Started".
-![Landing Page]()
+![Landing Page](/Assets/images/note-taker-1.png)
 - Then you're given access to the note taker! You can create new notes by putting inputs for note title and note text.
-![Note Taker]()
+![Note Taker](/Assets/images/note-taker-2.png)
 - View and delete previous notes on the side!
-![Note Functionality]()
+![Note Functionality](/Assets/images/note-taker-3.png)
 
 ## Features
 - Express.js
